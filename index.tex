@@ -4,8 +4,47 @@
 \usepackage[francais]{babel}
 \usepackage{graphicx}
 \usepackage[final]{pdfpages}
+\usepackage{titlesec}
+
+\titleformat{\chapter}[display]{\sf\bfseries\LARGE} {\vspace{-10ex} \filleft\MakeUppercase{Partie}~\Huge\thechapter} {4ex}{\titlerule\vspace{2ex}\filright}[\vspace{2ex}\titlerule]
 
 \begin{document}
+
+\begin{titlepage}
+
+\begin{center}
+
+\textsc{\large IUT de Blagnac - Université Toulouse II Le Mirail}\\[1cm]
+
+\includegraphics[width=2cm]{iutBlagnac}
+\hspace{7cm}
+\includegraphics[width=2cm]{univMirail}\\[4cm]
+
+\textsc{\Large Economie et Gestion des Organisations}\\
+
+\rule{\linewidth}{.5pt}\\[0.4cm]
+{ \huge \bfseries Rapport de jeu d'entreprise}\\[0.4cm]
+\rule{\linewidth}{.5pt}
+
+%Image éventuelle
+%\includegraphics[scale=0.2]{portable}\\[2cm]%
+
+\vfill
+
+\large \today\\[1.5cm]
+
+\begin{tabular}{cc}
+	\multicolumn{2}{c}{\emph{Par}}\\
+	Aurélien \textsc{Bertron}&Pierre-André \textsc{Lemoine}\\
+	Thomas \textsc{Bille}&Sébastien \textsc{Navech}\\
+	\multicolumn{2}{c}{Victor \textsc{Iungmann}}\\[0.5cm]
+	\multicolumn{2}{c}{\emph{À l'intention de}}\\
+	\multicolumn{2}{c}{Martine \textsc{Cazanobes}}\\
+\end{tabular}
+
+\end{center}
+
+\end{titlepage}
 
 \tableofcontents
 
